@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "minimum_contiguous_known_tokens": 128,
+  "maximum_tokens": 512,
+  "maximum_documents": 40,
+  "surrogates": 99,
+  "iaaft_iterations": 200,
+  "spectrum_error_limit": 0.05,
+  "document_selection": "lexicographic SHA256 of raw document bytes; first eligible documents",
+  "projection": "first PCA direction of normalized vocabulary vectors; no document-order fitting",
+  "statistic": "standardized third moment of first differences",
+  "correction": "Benjamini-Hochberg over all 40 planned documents; failed-quality tests receive p=1",
+  "scope": "descriptive within-corpus diagnostic; fixed corpus-trained embeddings; not cross-language validation or authorship classification",
+  "reference": "https://www.pks.mpg.de/tisean/TISEAN_2.1/docs/surropaper/node12.html"
+}

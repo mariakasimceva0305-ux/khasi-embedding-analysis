@@ -1,0 +1,5 @@
+
+*.zip
+raw_texts*/
+__pycache__/
+.pytest_cache/

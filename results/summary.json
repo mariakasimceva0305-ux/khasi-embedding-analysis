@@ -1,0 +1,17 @@
+{
+  "eligible_documents": 770,
+  "analysed_documents": 40,
+  "surrogate_quality_pass": 8,
+  "fdr_rejections_at_005": 0,
+  "mean_cosine_delta": 0.05479109552928143,
+  "descriptive_document_bootstrap_ci": [
+    0.04498219053956963,
+    0.06432614243422359
+  ],
+  "limitations": [
+    "Embedding training already rewards local co-occurrence; permutation effect is not independent evidence of language understanding.",
+    "Documents from the same corpus/publisher need not be statistically independent.",
+    "IAAFT rejection does not establish deterministic chaos or a causal dynamical model.",
+    "No English/Russian or human/LLM comparison performed."
+  ]
+}
